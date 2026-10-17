@@ -1,0 +1,2 @@
+# Store text consistently while allowing Git to handle local line endings.
+* text=auto

@@ -1,0 +1,15 @@
+# Practice: create scratch.txt later to see how ignored files behave.
+scratch.txt
+
+# Local secrets (never put real secrets in this practice project).
+.env
+.env.*
+
+# Operating system and temporary files.
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencies and generated output, if we add build tools later.
+node_modules/
+dist/

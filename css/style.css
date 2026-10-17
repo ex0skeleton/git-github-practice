@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: #f5f5f2; color: #25302b; font-family: Arial, sans-serif; }
+main { width: min(100%, 640px); padding: clamp(24px, 6vw, 56px); background: white; border: 1px solid #e3e5df; border-radius: 20px; }
+.label { color: #547c59; font-size: 12px; font-weight: bold; letter-spacing: 2px; }
+h1 { font-size: clamp(32px, 6vw, 48px); letter-spacing: -2px; }
+p { line-height: 1.6; }
+button { background: #315d42; color: white; border: 0; padding: 14px 20px; border-radius: 8px; font: inherit; cursor: pointer; }
+button:hover { background: #244732; }
+button:focus-visible { outline: 3px solid #df9c32; outline-offset: 4px; }
+#message { min-height: 26px; color: #547c59; }
