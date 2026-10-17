@@ -24,3 +24,5 @@ GitHub Actions will be added in a later lesson so we can watch the change happen
 5. Add a simple GitHub Actions workflow together.
 
 We will explain each command before using it. Do not race ahead.
+
+This line was added on GitHub to practice receiving remote changes.
